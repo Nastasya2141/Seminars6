@@ -18,9 +18,11 @@ for (int i = 0; i < massiv; i++)
 int AmountPositiveNumbers(int[] arr)
 {
   int count = 0;
+ 
   for (int i = 0; i < arr.Length; i++)
   {
-    if(arr[i] > 0 ) count += 1; 
+    if(arr[i] > 0)
+    count += 1; 
   }
   return count;
 }
